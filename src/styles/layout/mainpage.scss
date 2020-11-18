@@ -1,0 +1,130 @@
+.overview {
+   display: flex;
+   width: 100%;
+   // height: 100%;
+   height: fit-content;
+   flex-direction: column;
+   background-image: url('../images/8f540d29be1722407ff3f073d06062e8.gif');
+   background-size: cover;
+   font-family: 'Press Start 2P';
+   // z-index: 100;
+}
+
+.overview__mask {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: black;
+   opacity: 0.4;
+   pointer-events: none;
+   z-index: 1;
+   // display: none;
+}
+
+.overview__content {
+   z-index: 2;
+   margin-top: 380px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.overview--box {
+   background-color: #c4c4c4;
+   color: black;
+   font-family: 'Press Start 2P';
+   font-size: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.overview__about {
+   display: flex;
+   margin-top: 76px;
+   align-items: center;
+   justify-content: space-between;
+   // padding-left: 136px;
+   // padding-right: 34px;
+   margin-bottom: 152px;
+}
+
+
+.overview__videobox {
+   width: 1169px;
+   height: 555px;
+}
+
+.overview__data {
+   width: 824px;
+   height: 843px;
+}
+
+.overview__slider {
+   width: 782px;
+   height: 742px;
+   margin-left: 144px;
+}
+
+.overview__info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: auto;
+   background-color: rgba(0, 0, 0, 0.85);
+   color: white;
+   width: 100%;
+}
+
+.info__socials {
+   display: flex;
+   margin-top: 24px;
+}
+
+.info__link {
+   margin-right: 12px;
+   cursor: pointer;
+   opacity: 0.7;
+   transition: 0.3s;
+
+   &:hover {
+      opacity: 1;
+      transition: 0.3s;
+   }
+
+   &:last-child {
+      margin-right: unset;
+   }   
+}
+
+.info__icon {
+   font-size: 30px;
+}
+
+.info__team {
+   display: flex;
+   width: 70%;
+   margin-top: 40px;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.team__member {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.info__copyright {
+   margin-top: 20px;
+   margin-right: 20px;
+   font-family: Roboto;
+   align-self: flex-end;
+   font-size: 12px;
+   margin-bottom: 16px;
+   opacity: 0.7;
+}
